@@ -1,0 +1,119 @@
+@import url(../common/hearder.css);
+@import url(../common/common.css);
+@import url(../common/footer.css);
+
+body{
+    background-color:#f4f4f4;
+}
+// 关于我们开始
+    .about{
+        width:100%;
+        height:3.413333rem;
+        padding:0 .32rem; 
+        margin-bottom:.36rem;
+        .about_title{
+            border:1px solid  #dcdcdc;
+            width:100%;
+            height:.666667rem;
+            padding:.186667rem .213333rem;
+            background: -webkit-linear-gradient(0deg, #d7d7d7 0%, #ffffff 100%); /* Safari 5.1 - 6.0 */
+            background: -o-linear-gradient(0deg, #d7d7d7 0%, #ffffff 100%); /* Opera 11.1 - 12.0 */
+            background: -moz-linear-gradient(0deg, #d7d7d7 0%, #ffffff 100%); /* Firefox 3.6 - 15 */
+            background:  linear-gradient(0deg, #d7d7d7 0%, #ffffff 100%);/* 标准的语法 */   
+            p{
+                width:100%;
+                height:100%;
+                line-height:.333333rem;
+                font-size:.32rem;
+                // margin-top:
+                border-left:4px solid #d2222c;
+                padding-left:.186667rem;
+                color:#d2222c;
+            }
+        }
+        .about_fonts{
+            width:100%;
+            height:2.733333rem;
+            background-color:white;
+            padding:.426667rem 1.333333rem .426667rem .52rem;
+            img{
+                float:left;
+                width:1.893333rem;
+                height:1.893333rem;
+            }
+            .about_font{
+                padding-top:.133333rem;
+                width:5.333333rem;
+                // height:1.6rem;
+                float:right;
+                p{
+                    font-size:.32rem;
+                    color:#666666;
+                    margin-bottom:.133333rem;
+                }
+            }
+        }
+    }
+// 关于我们结束
+// 服务指南开始
+    .guide{
+        width:100%;
+        height:9.893333rem;
+         padding:0 .32rem; 
+        .guide_title{
+            border:1px solid  #dcdcdc;
+            width:100%;
+            height:.666667rem;
+            padding:.186667rem .213333rem;
+            background: -webkit-linear-gradient(0deg, #d7d7d7 0%, #ffffff 100%); /* Safari 5.1 - 6.0 */
+            background: -o-linear-gradient(0deg, #d7d7d7 0%, #ffffff 100%); /* Opera 11.1 - 12.0 */
+            background: -moz-linear-gradient(0deg, #d7d7d7 0%, #ffffff 100%); /* Firefox 3.6 - 15 */
+            background:  linear-gradient(0deg, #d7d7d7 0%, #ffffff 100%);/* 标准的语法 */   
+             p{
+                width:100%;
+                height:100%;
+                line-height:.333333rem;
+                font-size:.32rem;
+                // margin-top:
+                border-left:4px solid #d2222c;
+                padding-left:.186667rem;
+                color:#d2222c;
+            }
+        }
+        .guide_content{
+            width:100%;
+            height:9.226667rem;
+            background-color:white;
+            padding:.493333rem 0 0 .373333rem;
+            overflow-y: scroll;
+            li{
+                width:100%;
+                margin-bottom:.493333rem;
+                a{
+                    width:100%;
+                    display:block;
+                    position:relative;
+                    padding-left:.186667rem;
+                    &:after{
+                        width:.066667rem;
+                        height:.066667rem;
+                        border-radius:50%;
+                        content:"";
+                        background-color:#757575;
+                        position:absolute;
+                        left:0;
+                        top:0;
+                        bottom:0;
+                        margin:auto;
+                    }
+                    p{
+                        color:#666666;
+                        font-size:.32rem;
+                        width:100%;
+
+                    }
+                }
+            }
+        }
+    }
+// 服务指南结束

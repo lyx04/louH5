@@ -1,0 +1,77 @@
+@import url(../common/common.css);
+// banner开始
+.banner{
+    width:100%;
+    height:2.666667rem;
+    img{
+        width:100%;
+        height:100%;
+    }
+}
+// banner结束
+// 面包屑开始
+    .crumbs{
+        width:100%;
+        height:1.333333rem;
+        background-color:#f4f4f4;
+        line-height:1.333333rem;
+        padding-left:.32rem;
+        padding-right:1.066667rem;
+        p{
+            margin-right:.066667rem;
+            color:#d30707;
+            font-size:.4rem;
+            display:inline-block;
+            overflow: hidden;
+            span{
+                margin-left:.066667rem;
+            }
+        }
+        p.oth{
+            color:#333333;
+            width: 3.6rem;
+            max-width:4.28rem;
+        }
+    }
+// 面包屑结束
+// 正文开始
+    .content{
+        width:100%;
+        height:auto;
+        background-color:white;
+        padding:.44rem .32rem 0 .32rem;
+        margin-bottom:.44rem;
+        .content_title{
+            width:100%;
+            border-bottom:.04rem dashed #d8d8d8;
+            padding-bottom:.066667rem;
+            height:auto;
+         
+            p{
+                margin-bottom:.626667rem;
+                text-align:center;
+                font-size:.373333rem;
+            }
+            .content_time{
+                width:100%;
+                height:auto;
+                img{
+                    width:.266667rem;
+                    height:.266667rem;
+                    margin-right:.066667rem;
+                    vertical-align: unset;
+                }
+                p{
+                    margin:0;
+                    display:inline-block;
+                    width:auto;
+                    font-size:.293333rem;
+                    color:#666666;
+                }
+                p.right{
+                    float:right;
+                }
+            }
+        }
+    }
+// 正文结束
